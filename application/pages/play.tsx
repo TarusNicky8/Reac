@@ -76,7 +76,7 @@ export default function Play() {
               flexDirection: "row",
               justifyContent: "center",
               alignItems: "center",
-              marginTop: 8,
+              marginTop: 6,
             }}
           >
             <OwnedGear
