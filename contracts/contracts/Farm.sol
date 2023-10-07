@@ -9,7 +9,7 @@ import "@thirdweb-dev/contracts/openzeppelin-presets/utils/ERC1155/ERC1155Holder
 // OpenZeppelin (ReentrancyGuard)
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
-contract Mining is ReentrancyGuard, ERC1155Holder {
+contract Farm is ReentrancyGuard, ERC1155Holder {
     // Store our two other contracts here (Edition Drop and Token)
     DropERC1155 public immutable pickaxeNftCollection;
     TokenERC20 public immutable rewardsToken;
